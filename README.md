@@ -15,11 +15,14 @@ Inspired by the [`geobr`](https://github.com/ipeaGIT/geobr) package for Brazil.
 ## 🚀 Installation
 
 ```r
-# Install from GitHub
-remotes::install_github("geolithicamz-hub/geomozr")
+# Install from CRAN (when available)
+install.packages("geomoz")
+
+# Or latest development version from GitHub
+remotes::install_github("geolithicamz-hub/geomoz-r")
 
 # Or using pak
-pak::pkg_install("geolithicamz-hub/geomozr")
+pak::pkg_install("geolithicamz-hub/geomoz-r")
 ```
 
 ---
@@ -97,16 +100,16 @@ ggplot(provinces) +
 
 ## 📚 Documentation
 
-- [Full Documentation](https://github.com/geolithicamz-hub/geomozr/blob/main/README.md) - Detailed documentation
-- [Examples](https://github.com/geolithicamz-hub/geomozr/tree/main/examples) - Code examples
+- [Full Documentation](https://github.com/geolithicamz-hub/geomoz-r/blob/main/README.md) - Detailed documentation
+- [Python Version](https://github.com/geolithicamz-hub/geomoz) - GeoMoz for Python
 
 ---
 
 ## 🛠️ Development
 
 ```bash
-git clone https://github.com/geolithicamz-hub/geomozr.git
-cd geomozr
+git clone https://github.com/geolithicamz-hub/geomoz-r.git
+cd geomoz-r
 R CMD INSTALL .
 ```
 
