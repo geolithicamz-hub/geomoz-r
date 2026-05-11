@@ -2,13 +2,7 @@ Package: geomoz
 Type: Package
 Title: Geospatial Data for Mozambique
 Version: 0.1.0
-Authors@R: c(
-    person("Hélder Gonçalves Félix", "Traquinho", 
-           email = "heltrakinho@gmail.com",
-           role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0000-0000-0000")),
-    person("Geolithica", role = c("cph", "fnd"))
-)
+Authors@R: c(person("Hélder Gonçalves Félix", "Traquinho", email = "heltrakinho@gmail.com", role = c("aut", "cre")), person("Geolithica", role = c("cph", "fnd")))
 Description: Provides easy access to geospatial data for Mozambique,
     including administrative boundaries (provinces, districts, admin posts, villages)
     and geological data. Inspired by the geobr package for Brazil, but focused on
@@ -30,9 +24,6 @@ Suggests:
     ggplot2 (>= 3.3.0),
     leaflet (>= 2.1.0),
     testthat (>= 3.0.0),
-    knitr,
-    rmarkdown
-URL: https://github.com/geolithicamz-hub/geomoz/tree/main/R
-BugReports: https://github.com/geolithicamz-hub/geomoz/issues
-VignetteBuilder: knitr
+URL: https://github.com/geolithicamz-hub/geomoz-r
+BugReports: https://github.com/geolithicamz-hub/geomoz-r/issues
 SystemRequirements: GDAL (>= 2.0.0), GEOS (>= 3.3.0), PROJ (>= 4.8.0)
