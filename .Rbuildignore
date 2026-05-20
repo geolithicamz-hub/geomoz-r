@@ -1,0 +1,6 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^\.git$
+^README\.md$
+^cran-comments\.md$
+^build_cran\.sh$
